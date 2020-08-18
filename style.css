@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.logincolor{
+    background: #f6892a;
+}
+.card1c{
+       background:linear-gradient(to bottom, #FBBA77, #DFA871);
+}
+.card2c{
+    background:  linear-gradient(to bottom, #41EAE3, #2293B7);
+}
+.card3c{
+    background:linear-gradient(to bottom, #69529F, #463864);
+}
+.card4c{
+    background: linear-gradient(to bottom, #69529F, #463864);
+}
+.card5c{
+    background: linear-gradient(to bottom, #A5A2F6, #564FD6);
+}.card6c{
+    background: linear-gradient(to bottom, #FF8088, #984141);
+}
+.bannerbtnClr{
+    background-color:#4b56a6;
+}
+.h50{
+    height: 50px;
+}
+.h75{
+    height: 75px;
+}
+.h100{
+    height: 100px;
+}
+.button {
+    padding: 6px 25px;
+    border-radius: 555px;
+    color: white;
+    border: none;
+    
+}
+.button:focus{
+    outline: none;
+}
+.bannerImage{
+    width: 100%;
+}
+.bannerImage>img{
+    width: 100%;
+}
+
+.title{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.imagecontainer>img{
+    width: 100%;
+}
+
+.play {
+    position: relative;
+    top: 20px;
+}
+
+.play::after {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 69px;
+    width: 33px;
+    background: black;
+    height: 3px;
+}
+
+.descontainer{
+    margin-top: 107px;
+}
